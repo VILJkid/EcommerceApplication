@@ -18,9 +18,8 @@
                 </div><!-- /.col -->
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
-                        <li class="breadcrumb-item"><a href="/createasset">Add User</a></li>
+                        <li class="breadcrumb-item"><a href="/addUser">Add User</a></li>
                         <li class="breadcrumb-item active">Manage Users</li>
-                        <li class="breadcrumb-item active">Asset Management</li>
                     </ol>
                 </div><!-- /.col -->
             </div><!-- /.row -->

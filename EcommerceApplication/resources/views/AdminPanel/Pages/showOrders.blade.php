@@ -18,9 +18,8 @@
                 </div><!-- /.col -->
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
-                        <li class="breadcrumb-item"><a href="/showasset">Show Orders</a></li>
-                        <li class="breadcrumb-item active">Manage Orders</li>
-                        <li class="breadcrumb-item active">Order Management</li>
+                        <li class="breadcrumb-item"><a href="/showOrders">Show Orders</a></li>
+                        <li class="breadcrumb-item active">Manage Notifications</li>
                     </ol>
                 </div><!-- /.col -->
             </div><!-- /.row -->

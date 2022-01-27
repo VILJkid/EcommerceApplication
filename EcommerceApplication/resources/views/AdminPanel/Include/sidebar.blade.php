@@ -209,11 +209,11 @@ $sid = session('sid');
                 </li>
 
                 <li
-                    class="nav-item {{ request()->is('showConstants*') || request()->is('showOrders*') ? 'active menu-open' : '' }}">
+                    class="nav-item {{ request()->is('showConstants*') || request()->is('showOrders*') || request()->is('showContactUs*') ? 'active menu-open' : '' }}">
 
                     {{-- Manage Constants Indicator. --}}
                     <a href="#"
-                        class="nav-link {{ request()->is('showConstants*') || request()->is('showOrders*') ? 'active' : '' }}">
+                        class="nav-link {{ request()->is('showConstants*') || request()->is('showOrders*') || request()->is('showContactUs*') ? 'active' : '' }}">
                         <i class="nav-icon fas fa-exclamation-circle"></i>
                         <p>
                             Manage Notifications
@@ -237,6 +237,16 @@ $sid = session('sid');
                                 class="nav-link {{ request()->is('showOrders*') ? 'active' : '' }}">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Show Orders</p>
+                            </a>
+                        </li>
+
+                        <li class="nav-item {{ request()->is('showContactUs*') ? 'active menu-open' : '' }}">
+
+                            {{-- Link to Show Contac tUs. --}}
+                            <a href="/showContactUs"
+                                class="nav-link {{ request()->is('showContactUs*') ? 'active' : '' }}">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Show Contact Us</p>
                             </a>
                         </li>
                     </ul>

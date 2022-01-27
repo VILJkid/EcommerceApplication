@@ -18,9 +18,8 @@
                 </div><!-- /.col -->
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
-                        <li class="breadcrumb-item"><a href="/showasset">Show Categories</a></li>
+                        <li class="breadcrumb-item"><a href="/showCategories">Show Categories</a></li>
                         <li class="breadcrumb-item active">Manage Categories</li>
-                        <li class="breadcrumb-item active">Category Management</li>
                     </ol>
                 </div><!-- /.col -->
             </div><!-- /.row -->

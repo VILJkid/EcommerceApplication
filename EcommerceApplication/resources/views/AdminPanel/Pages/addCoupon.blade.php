@@ -18,9 +18,8 @@
                 </div><!-- /.col -->
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
-                        <li class="breadcrumb-item"><a href="/createasset">Add Coupon</a></li>
+                        <li class="breadcrumb-item"><a href="/addCoupon">Add Coupon</a></li>
                         <li class="breadcrumb-item active">Manage Coupons</li>
-                        <li class="breadcrumb-item active">Coupon Management</li>
                     </ol>
                 </div><!-- /.col -->
             </div><!-- /.row -->

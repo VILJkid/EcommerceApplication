@@ -18,9 +18,8 @@
                 </div><!-- /.col -->
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
-                        <li class="breadcrumb-item"><a href="/createasset">Add CMS</a></li>
+                        <li class="breadcrumb-item"><a href="/addCMS">Add CMS</a></li>
                         <li class="breadcrumb-item active">Manage CMS</li>
-                        <li class="breadcrumb-item active">CMS Management</li>
                     </ol>
                 </div><!-- /.col -->
             </div><!-- /.row -->

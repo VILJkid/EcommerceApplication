@@ -18,9 +18,8 @@
                 </div><!-- /.col -->
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
-                        <li class="breadcrumb-item"><a href="/showasset">Show Constants</a></li>
-                        <li class="breadcrumb-item active">Manage Constants</li>
-                        <li class="breadcrumb-item active">Configuration Management</li>
+                        <li class="breadcrumb-item"><a href="/showConstants">Show Constants</a></li>
+                        <li class="breadcrumb-item active">Manage Notifications</li>
                     </ol>
                 </div><!-- /.col -->
             </div><!-- /.row -->
