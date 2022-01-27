@@ -1,0 +1,3 @@
+[submodule "NeoStore"]
+	path = NeoStore
+	url = https://github.com/VILJkid/NeoStore.git
