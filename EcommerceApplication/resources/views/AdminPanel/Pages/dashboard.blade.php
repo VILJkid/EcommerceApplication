@@ -103,7 +103,8 @@
                             </div>
                         </div>
                         <div class="card-body ">
-                            <h5 class="card-title text-primary" id="numCount"></h5>
+                            <h5 class="card-title ">Currently, there are total no. of <strong><span
+                                        class="text-primary" id="numCount"></span></strong> registered Customer(s).</h5>
                         </div>
                         <!-- /.card-body -->
                     </div>
