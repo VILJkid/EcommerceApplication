@@ -1,7 +1,7 @@
 {{-- View for Login --}}
 
 {{-- Extending the admin master template. --}}
-@extends('AssetTracker.adminmaster')
+@extends('AdminPanel.adminmaster')
 
 {{-- Title of the document. --}}
 @section('title')
