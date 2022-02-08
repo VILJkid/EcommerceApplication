@@ -57,12 +57,15 @@ class OrderAPIController extends Controller
                 }
 
                 if ($flag1 == 1) {
+                    if ($request->coupon_value != 0) {
+                        $coupon = Coupon::where('coupon_value', $request->coupon_value)->first();
+                        $oldCouponQty = $coupon->coupon_qty;
+                        $coupon->update(['coupon_qty' => $oldCouponQty - 1]);
 
-                    $coupon = Coupon::where('coupon_value', $request->coupon_value)->first();
-                    $oldCouponQty = $coupon->coupon_qty;
-                    $coupon->update(['coupon_qty' => $oldCouponQty - 1]);
-
-                    return response(['data' => ($order), "Message" => "Order placed sucessfully"], 201);
+                        return response(['data' => ($order), "Message" => "Order placed sucessfully"], 201);
+                    } else {
+                        return response(['data' => ($order), "Message" => "Order placed sucessfully"], 201);
+                    }
                 } else {
                     return response(['msg' => 'Data not added'], 401);
                 }
